@@ -1,0 +1,33 @@
+{
+  "entities": {
+    "musicos": {
+      "title": "Musicos",
+      "description": "Registros de músicos PUC y sus necesidades de inventario",
+      "type": "object",
+      "properties": {
+        "nombre": {
+          "type": "string"
+        },
+        "estado": {
+          "type": "string"
+        },
+        "necesidad": {
+          "type": "string"
+        },
+        "fechaHora": {
+          "type": "string"
+        },
+        "createdAt": {
+          "type": "string",
+          "format": "date-time"
+        }
+      },
+      "required": [
+        "nombre",
+        "estado",
+        "necesidad",
+        "createdAt"
+      ]
+    }
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "name": "MÚSICOS IPUC BUENOS AIRES",
+  "description": "Registro e inventario de necesidades para músicos de MÚSICOS IPUC BUENOS AIRES con panel administrativo",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
